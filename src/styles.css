@@ -2,3 +2,7 @@
 @import "tailwindcss";
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-mdc-tab.mdc-tab--active {
+  background: #e5e7eb !important; /* gray-200 */
+  border-radius: 6px;
+}

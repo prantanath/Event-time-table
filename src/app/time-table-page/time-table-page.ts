@@ -50,7 +50,7 @@ export class TimeTablePage implements OnInit {
   contentScrollLeft = 0;
 
   // height for a 15-minute slot (px); card height depends on duration
-  readonly slotHeight = 20;
+  readonly slotHeight = 40;
 
   constructor() {
   }
